@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harshitha Nooli Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Harshitha Nooli</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Harshitha Nooli</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+                <li><a href="#education" onclick="toggleMenu()">Education</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/profile-pic.jpg" alt="Harshitha Nooli"/>
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Harshitha Nooli</h1>
+            <p class="section__text__p2">Software Developer</p>
+            <div class=""btn-container>
+                <button class="btn btn-color-2" onclick="window.open('./assets/HarshithaNooli_Resume.pdf')">Resume</button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact</button>
+            </div>
+            <div id="socials-container">
+                <img src="./assets/linkedin.png" alt="Harshitha Nooli linkedin profile" class="icon" onclick="location.href='https://www.linkedin.com/in/nooli-harshitha/'"/>
+                <img src="./assets/github.png" alt="Harshitha Nooli github profile" class="icon" onclick="location.href='https://github.com/harshithanooli'"/>
+
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <!-- <p class="section__text__p1">Get to Know More</p> -->
+        <h1 class="title">ABOUT ME</h1>
+        <div class="section-container">
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./assets/experience.png" alt="Experience icon" class="icon"/>
+                        <h3>Experience</h3>
+
+                        <p>2 years <br />Fullstack Development</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./assets/education.png" alt="Education icon" class="icon"/>
+                        <h3>Education</h3>
+
+                        <p>Present - Masters in Computer Science <br />Indiana University Bloomington</p>
+                    </div>
+                </div>
+                    <div class="text-container">
+                        <br/>
+                        <br/>
+                        <p>
+                            I am a Masters student in Computer Science at Indiana University Bloomington. I am a coding enthusiast, I have 2 years of full time work experience at Credit Suisse as Technology Analyst where I worked on full stack application development using Java, Spring boot, Micronaut, JavaScript, React JS, Python, Rest APIs and Graph QL. I hold a Bachelor Of Technology degree in Computer Science and Engineering from Jawaharlal Nehru Technological University, India. Solving problems using technology intrigues and drives me to do better everyday. I am interested in Software Development Engineer, Software Engineer, Full stack developer roles.
+                        </p>
+                    </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png"  alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'"/>
+    </section>
+    <section id="experience">
+        <h1 class="title">EXPERIENCE</h1>
+        <div class="experience-details-container">
+            <div class="experience-about-containers">
+                <div class="experience1-details-container">
+                    <!-- <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/> -->
+
+                    <h2 class="experience-sub-title">Technology Analyst - CREDIT SUISSE</h2>
+                    <h4 class="experience-duration">July 2021 - July 2023</h4>
+                    <div class="experience-article-container">
+
+                            <div>
+                                <p>• Spearheaded the Deputy Management project by implementing new features with Micronaut Framework in Java and React JS,
+                                    resolving bugs, deploying code to production and enhancing application efficiency by 15%.</p>
+                            </div>
+                        
+                            <div>
+                                
+                 
+                                <p>• Coordinated with cross-functional teams to successfully migrate a project from Java 11 to Java 17, ensuring seamless
+                                    functionality.</p>
+                            </div>
+                        
+                            <div>
+                                <p>• Developed new UI Screens for the Client Lifecycle Management Applications - Contact Details and Enhanced Client Periodic
+                                    Review, utilized Yup for validating Javascript field data.</p>
+                            </div>
+                       
+                            <div>
+                                <p>• Developed and optimized data storage solutions by orchestrating a caching solution with Apache Ignite, reducing data access
+                                    time from 5 minutes to 2 milliseconds.</p>
+                            </div>
+                       
+                            <div>
+                                <p>• Created a result comparison application for data reports, automating processes and saving 3 hours of daily manual
+                                    intervention.</p>
+                            </div>
+                      
+                            <div>
+                                <p>• Enhanced code quality by implementing a test-driven development approach, increasing code coverage from 10% to 65%.</p>
+                            </div>
+                      
+                            <div>
+                                <p>• Implemented comprehensive logging with Log4j, enhancing the system’s robustness and facilitating effective monitoring and
+                                    error handling and debugging.</p>
+                            </div>
+                       
+                            <div>
+                                <p>• Collaborated with cross-functional teams to gather requirements, conducted code reviews, and ensured adherence to
+                                    industry best practices and coding standards, contributing to the overall quality and maintainability of the codebase.</p>
+                            </div>
+                       
+                    </div>
+                </div>
+                <div class="experience1-details-container">
+                    <!-- <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/> -->
+
+                    <h2 class="experience-sub-title">Technology Analyst Intern - CREDIT SUISSE</h2>
+                    <h4 class="experience-duration">May 2020 - November 2020</h4>
+                    <div class="experience-article-container">
+                        
+
+                            <div>
+                                <p>• Developed a chatbot application to address business user queries regarding trade reporting decisions, cutting query resolution
+                                    time from 30 minutes to 2 minutes and enhancing user satisfaction.</p>
+                            </div>
+                            <div>
+                                
+                 
+                                <p>• Contributed to microservice application development, by coding Rest APIs in SpringBoot. Utilized JPA, Hibernate Frameworks,
+                                    H2 in-memory database and Oracle, Sybase databases.</p>
+                            </div>
+                            <div>
+                                <p>• Operated in an Agile environment which included sprint planning, daily stand-up, Jira tickets, retrospectives, reviews, and
+                                    documentation.</p>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png"  alt="Arrow icon" class="icon arrow" onclick="location.href='./#skills'"/>
+
+    </section>
+  
+    <section id="skills">
+        <h1 class="title">SKILLS</h1>
+        <div class="skills-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <!-- <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/> -->
+
+                    <h2 class="skill-sub-title">Languages / Frameworks</h2>
+                    <div class="article-container">
+                        <article>
+                           <img src="./assets/java.png" alt="java icon" class="icon" />
+                           <h3>Java</h3>
+                        </article>
+                        <article>
+                            <img src="./assets/Python.png" alt="java icon" class="icon" />
+                            <h3>Python</h3>
+                        </article>
+                        <article>
+                            <img src="./assets/javascript.png" alt="java icon" class="icon" />
+                            <h3>Javascript</h3>
+                        </article>
+                        <article>
+                            <img src="./assets/reactjs.png" alt="java icon" class="icon" />
+                            <h3>ReactJS</h3>
+                        </article>
+                        <article>
+                            <img src="./assets/html.png" alt="java icon" class="icon" />
+                            <h3>HTML</h3>
+                        </article>
+                        <article>
+                            <img src="./assets/css.png" alt="java icon" class="icon" />
+                            <h3>CSS</h3>
+                        </article>
+                        <article>
+                            <img src="./assets/sql.png" alt="java icon" class="icon" />
+                            <h3>SQL</h3>
+                        </article>
+                        <article>
+                            <img src="./assets/springboot.png" alt="java icon" class="icon" />
+                            <h3>SpringBoot</h3>
+                        </article>
+                        <article>
+                            <img src="./assets/micronaut.png" alt="java icon" class="icon" />
+                            <h3>Micronaut</h3>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <!-- <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/> -->
+
+                    <h2 class="skill-sub-title">Databases</h2>
+                    <div class="article-container">
+                        <article>
+                           <img src="./assets/oracledb.png" alt="java icon" class="icon" />
+                           <h3>Oracle</h3>
+                        </article>
+                        <article>
+                            <img src="./assets/mysqldb.png" alt="java icon" class="icon" />
+                            <h3>MySQL</h3>
+                        </article>
+                        <article>
+                            <img src="./assets/postgresqldb.png" alt="java icon" class="icon" />
+                            <h3>PostgreSQL</h3>
+                        </article>
+                        <article>
+                            <img src="./assets/mongodb.png" alt="java icon" class="icon" />
+                            <h3>MongoDB</h3>
+                        </article>
+                        
+                       
+                    </div>
+                </div>
+                <div class="details-container">
+                    <!-- <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/> -->
+
+                    <h2 class="skill-sub-title">Technologies</h2>
+                    <div class="article-container">
+                        <article>
+                           <img src="./assets/linux.png" alt="java icon" class="icon" />
+                           <h3>Linux</h3>
+                        </article>
+                        <article>
+                            <img src="./assets/jenkins.png" alt="java icon" class="icon" />
+                            <h3>Jenkins</h3>
+                        </article>
+                       
+                        <article>
+                            <img src="./assets/graphql.png" alt="java icon" class="icon" />
+                            <h3>GraphQL</h3>
+                        </article>
+                        <article>
+                            <img src="./assets/apacheignite.png" alt="java icon" class="icon" />
+                            <h3>Apache Ignite</h3>
+                        </article>
+                        <article>
+                            <img src="./assets/maven.png" alt="java icon" class="icon" />
+                            <h3>Maven</h3>
+                        </article>
+                        <article>
+                            <img src="./assets/kafka.png" alt="java icon" class="icon" />
+                            <h3>Kafka</h3>
+                        </article>
+                        
+                       
+                    </div>
+                </div>
+                <div class="details-container">
+                    <!-- <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/> -->
+
+                    <h2 class="skill-sub-title">Developer Tools</h2>
+                    <div class="article-container">
+                        <article>
+                           <img src="./assets/git.png" alt="java icon" class="icon" />
+                           <h3>Git</h3>
+                        </article>
+                        <article>
+                            <img src="./assets/vscode.png" alt="java icon" class="icon" />
+                            <h3>Visual Studio Code</h3>
+                        </article>
+                        <article>
+                            <img src="./assets/intellij.png" alt="java icon" class="icon" />
+                            <h3>IntelliJ</h3>
+                        </article>
+                        <article>
+                            <img src="./assets/android.png" alt="java icon" class="icon" />
+                            <h3>Android Studio</h3>
+                        </article>
+                        <article>
+                            <img src="./assets/aws.png" alt="java icon" class="icon" />
+                            <h3>AWS</h3>
+                        </article>
+                        <article>
+                            <img src="./assets/postman.png" alt="java icon" class="icon" />
+                            <h3>Postman</h3>
+                        </article>
+                        <article>
+                            <img src="./assets/jira.png" alt="java icon" class="icon" />
+                            <h3>Jira</h3>
+                        </article>
+                        
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png"  alt="Arrow icon" class="icon arrow" onclick="location.href='./#education'"/>
+
+    </section>
+    <section id="education">
+        <h1 class="title">EDUCATION</h1>
+        <div class="education-details-container">
+            <div class="education-about-containers">
+                <div class="education1-details-container">
+                    <!-- <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/> -->
+
+                    <h2 class="education-sub-title">Indiana University Bloomington</h2>
+                    <h3 class="education-degree-title">Master of Science In Computer Science</h3>
+                    <h4 class="education-duration">August 2023 - May 2025</h4>
+                    
+                </div>
+                <div class="education1-details-container">
+                    <!-- <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/> -->
+
+                    <h2 class="education-sub-title">Jawaharlal Nehru Technological University</h2>
+                    <h3 class="education-degree-title">Bachelors Of Technology In Computer Science</h3>
+                    <h4 class="education-duration">July 2017 - July 2021</h4>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png"  alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'"/>
+
+    </section>
+    <section id="contact">
+        <h1 class="title">CONTACT ME</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+                <p><a href="mailto:harshithanooli20@gmail.com">harshithanooli20@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assets/phone.png" alt="Phone icon" class="icon contact-icon" />
+                <p>+1 8123696696</p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
+                <p><a href="https://www.linkedin.com/in/nooli-harshitha/">LinkedIn:nooli-harshitha</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links"><li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2025 Harshitha Nooli. All rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body> 
+</html>
